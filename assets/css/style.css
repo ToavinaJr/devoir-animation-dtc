@@ -379,7 +379,7 @@
 
 	70% {
 		transform: scale(1);
-		box-shadow: 0 0 0 20px rgba(21, 25, 29, 0);
+		box-shadow: 0 0 0 30px rgba(21, 25, 29, 0);
     }
 	100% {
 		transform: scale(0.95);
