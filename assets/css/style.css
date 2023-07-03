@@ -386,3 +386,21 @@
 		box-shadow: 0 0 0 0 rgba(21, 25, 29, 0);
 	}
 }
+.fire-container{
+    background: #121121;
+}
+
+.fire{
+    width: 53px;
+    height: 70px;
+    background: url(../images/fire-1.png);
+    animation: fireAnimation 2s ease infinite;
+}
+
+@keyframes fireAnimation {
+    0%{ background: url(../images/fire-1.png);}
+    25%{ background: url(../images/fire-2.png);}
+    50%{ background: url(../images/fire-3.png);}
+    75%{ background: url(../images/fire-4.png);}
+    
+}
