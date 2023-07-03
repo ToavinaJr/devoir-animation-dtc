@@ -404,3 +404,74 @@
     75%{ background: url(../images/fire-4.png);}
     
 }
+
+@media only screen and (max-width: 600px){
+    .item{
+        height: 23.5vh;
+    }
+
+    .ring{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.card-container{
+    position: relative;
+}
+.card{
+    width: 66px;
+    height: 170px;
+    border-radius: 10px;
+    transform-origin: center 90%;
+    position: absolute;
+    left: calc(50% - 33px);
+    top: 15px;
+    color: #f10f0f;
+    padding: 5px;
+}
+
+.card-1{
+    background: #212529;
+    animation: swatch-1 5s cubic-bezier(0.4, 0, 0.2, 1)  infinite;
+}
+
+@keyframes swatch-1 {
+    0%{ transform: rotate(0deg);}
+    30%, 70%{   transform: rotate(-30deg);}
+    90%, 100%{ transform: rotate(0deg);}
+}
+
+.card-2{
+    background: #28cc5f;
+    animation: swatch-2 5s cubic-bezier(0.4, 0, 0.2, 1)  infinite;
+}
+
+@keyframes swatch-2 {
+    0%{ transform: rotate(0deg);}
+    30%, 70%{   transform: rotate(30deg);}
+    90%, 100%{ transform: rotate(0deg);}
+}
+
+.card-3{
+    background: #d4d11c;
+    animation: swatch-3 5s cubic-bezier(0.4, 0, 0.2, 1)  infinite;
+}
+
+@keyframes swatch-3 {
+    0%{ transform: rotate(0deg);}
+    30%, 70%{   transform: rotate(-80deg);}
+    90%, 100%{ transform: rotate(0deg);}
+}
+
+.card-4{
+    background: #2165a8;
+    animation: swatch-4 5s cubic-bezier(0.4, 0, 0.2, 1)  infinite;
+}
+
+@keyframes swatch-4 {
+    0%{ transform: rotate(0deg);}
+    30%, 70%{   transform: rotate(80deg);}
+    90%, 100%{ transform: rotate(0deg);}
+}
+
