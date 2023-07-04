@@ -593,28 +593,25 @@
 }
 
 .semi-cercle-1{
-    /* top: calc(50% - 50px);
-    left: calc(50% -50px); */
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
+
     border-top: transparent solid 5px;
-    animation: animationSemiCercle1  4s linear alternate infinite;
+    animation: animationSemiCercle1 3s linear alternate infinite;
 }
 
 .semi-cercle-2{
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border-bottom: transparent solid 5px;
-    top: calc(50% - 40px);
-    left: calc(50% -40px);
-    animation: animationSemiCercle2 4s linear alternate infinite;
+    animation: animationSemiCercle2 3s linear alternate infinite;
 }
 
 .semi-cercle-3{
     width: 60px;
     height: 60px;
     border-left: transparent solid 5px;
-    animation: rotate  4s linear alternate infinite;
+    animation: rotate  3s linear alternate infinite;
 }
 
 @keyframes animationSemiCercle1 {
