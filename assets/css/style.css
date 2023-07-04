@@ -546,16 +546,6 @@
 @keyframes negativeRotation {
     100%{   transform: rotate(360deg);}
 }
-.hour{
-    width: 8px;
-    height: 60px;
-    background: linear-gradient(red, orange);
-    position: absolute;
-    left: calc(50% - 4px);
-    top: 50%;
-    transform-origin: center 0;
-    animation: negativeRotation 60s linear infinite;
-}
 
 .minute{
     width: 8px;
@@ -587,5 +577,5 @@
     left: calc(50% - 3px);
     top: 50%;
     transform-origin: center 0;
-    animation: negativeRotation 0.016s linear infinite;
+    animation: negativeRotation 6s linear infinite;
 }
