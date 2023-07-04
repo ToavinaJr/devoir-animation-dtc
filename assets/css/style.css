@@ -536,9 +536,10 @@
 }
   
 .horloge{
-    width: 188px;
-    height: 190px;
+    width: 180px;
+    height: 180px;
     border: #212529 solid 5px;
+    background: #2165a8;
     border-radius: 50%;
     position: relative;
 }
@@ -561,7 +562,7 @@
 .second{
     width: 6px;
     height: 70px;
-    background: #2165a8;
+    background: #df4516;
     position: absolute;
     left: calc(50% - 3px);
     top: 50%;
