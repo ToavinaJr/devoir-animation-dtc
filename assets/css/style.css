@@ -557,10 +557,10 @@
     animation: negativeRotation 60s linear infinite;
 }
 
-.hour{
+.minute{
     width: 8px;
     height: 60px;
-    background: linear-gradient(red, orange);
+    background: #212529;
     position: absolute;
     left: calc(50% - 4px);
     top: 50%;
@@ -568,13 +568,24 @@
     animation: negativeRotation 60s linear infinite;
 }
 
-.min{
+.second{
     width: 6px;
     height: 70px;
-    background: linear-gradient(red, orange);
+    background: #2165a8;
     position: absolute;
     left: calc(50% - 3px);
     top: 50%;
     transform-origin: center 0;
-    animation: negativeRotation 60s linear infinite;
+    animation: negativeRotation 1s linear infinite;
+}
+
+.tierce{
+    width: 4px;
+    height: 75px;
+    background: #28cc5f;
+    position: absolute;
+    left: calc(50% - 3px);
+    top: 50%;
+    transform-origin: center 0;
+    animation: negativeRotation 0.016s linear infinite;
 }
