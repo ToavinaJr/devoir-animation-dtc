@@ -61,18 +61,12 @@
     animation: move-6 6s ease infinite;
 }
 
-.container-animation-3{
-    position: relative;
-}
-
 .square{
     width: 150px;
     height: 72px;
     border: solid 10px blue;
     background: transparent;
-    position: absolute;
-    top: 65px;
-    left: 130px;
+    position: relative
 }
 
 .dot{
@@ -84,16 +78,16 @@
 .dot-1{
     background: green;
     position: absolute;
-    top: 40px;
-    left: 100px;
+    top: -25px;
+    left: -25px;
     animation: dot-1-animation  4s ease-in infinite;
 }
 
 .dot-2{
     background: yellow;
     position: absolute;
-    top: 40px;
-    right: 100px;
+    top: -25px;
+    right: -25px;
     animation: dot-2-animation 4S ease-in  infinite;
 }
 
@@ -533,10 +527,54 @@
     bottom: 0;
     animation: wave 20s 1s ease-in infinite;
     opacity: 0.5;
-  }
+}
   
-  @keyframes wave {
-      0% {transform: translateX(0);}
-      50% {transform: translateX(-25%);}
-      100% {transform: translateX(-50%);}
-  }
+@keyframes wave {
+    0% {transform: translateX(0);}
+    50% {transform: translateX(-25%);}
+    100% {transform: translateX(-50%);}
+}
+  
+.horloge{
+    width: 188px;
+    height: 190px;
+    border: #212529 solid 5px;
+    border-radius: 50%;
+    position: relative;
+}
+
+@keyframes negativeRotation {
+    100%{   transform: rotate(360deg);}
+}
+.hour{
+    width: 8px;
+    height: 60px;
+    background: linear-gradient(red, orange);
+    position: absolute;
+    left: calc(50% - 4px);
+    top: 50%;
+    transform-origin: center 0;
+    animation: negativeRotation 60s linear infinite;
+}
+
+.hour{
+    width: 8px;
+    height: 60px;
+    background: linear-gradient(red, orange);
+    position: absolute;
+    left: calc(50% - 4px);
+    top: 50%;
+    transform-origin: center 0;
+    animation: negativeRotation 60s linear infinite;
+}
+
+.min{
+    width: 6px;
+    height: 70px;
+    background: linear-gradient(red, orange);
+    position: absolute;
+    left: calc(50% - 3px);
+    top: 50%;
+    transform-origin: center 0;
+    animation: negativeRotation 60s linear infinite;
+}
