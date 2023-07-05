@@ -663,3 +663,16 @@
         transform: rotate(90deg);
     }
 }
+
+.card-5{
+    background: #696a72;
+    color: #f8f9fa;
+    animation: showCard 3s ease alternate-reverse infinite;
+}
+
+@keyframes showCard{
+    100%{
+        transform: rotateY(150deg);
+        color: #696a72;
+    }
+}
