@@ -625,3 +625,41 @@
     50%{    transform: rotate(-90deg);}
     100%{   transform: rotate(-135deg);}
 }
+
+.diamond{
+    width: 30px;
+    height: 30px;
+    background: #097ff5; 
+    margin: 40px;
+}
+
+.diamond-1{
+  animation: diamondAnimation1 3s ease alternate infinite;
+}
+.diamond-2{
+    animation: diamondAnimation2 3s ease alternate infinite;
+}
+
+@keyframes diamondAnimation1 {
+    50%{
+        transform: translate(80px);
+    }
+    75%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(-900deg);
+    }
+}
+
+@keyframes diamondAnimation2 {
+    50%{
+        transform: translate(-80px);
+    }
+    75%{
+        transform: rotate(-990deg);
+    }
+    100%{
+        transform: rotate(90deg);
+    }
+}
